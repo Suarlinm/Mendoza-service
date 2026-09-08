@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin-login/page": "/admin-login",
+  "/admin/antes-despues/page": "/admin/antes-despues",
+  "/admin/configuracion/page": "/admin/configuracion",
+  "/admin/cotizaciones/page": "/admin/cotizaciones",
+  "/admin/galeria/page": "/admin/galeria",
+  "/admin/page": "/admin",
+  "/admin/proyectos/page": "/admin/proyectos",
+  "/admin/servicios/page": "/admin/servicios",
+  "/admin/testimonios/page": "/admin/testimonios",
+  "/admin/videos/page": "/admin/videos",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/proyectos/[id]/page": "/proyectos/[id]",
+  "/proyectos/page": "/proyectos"
+}

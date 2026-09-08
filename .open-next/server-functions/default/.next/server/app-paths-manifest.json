@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin-login/page": "app/admin-login/page.js",
+  "/admin/antes-despues/page": "app/admin/antes-despues/page.js",
+  "/admin/configuracion/page": "app/admin/configuracion/page.js",
+  "/admin/cotizaciones/page": "app/admin/cotizaciones/page.js",
+  "/admin/galeria/page": "app/admin/galeria/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/proyectos/page": "app/admin/proyectos/page.js",
+  "/admin/servicios/page": "app/admin/servicios/page.js",
+  "/admin/testimonios/page": "app/admin/testimonios/page.js",
+  "/admin/videos/page": "app/admin/videos/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/proyectos/[id]/page": "app/proyectos/[id]/page.js",
+  "/proyectos/page": "app/proyectos/page.js"
+}
