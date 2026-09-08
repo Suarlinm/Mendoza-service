@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { supabase } from "@/lib/supabase";
+export const dynamic = "force-dynamic";
 
 export default async function ProyectosPage() {
   const { data: proyectos, error } =

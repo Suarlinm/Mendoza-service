@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Galeria from "@/components/Galeria";
 import Videos from "@/components/Videos";
+export const dynamic = "force-dynamic";
 
 
 export default function Home() {
