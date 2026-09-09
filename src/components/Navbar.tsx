@@ -7,43 +7,45 @@ import { Menu, X } from "lucide-react";
 export default function Navbar() {
   const [menuAbierto, setMenuAbierto] = useState(false);
 
-  const [nombreEmpresa, setNombreEmpresa] =
-    useState("CONSTRUCTION COMPANY");
+  const [nombreEmpresa, setNombreEmpresa] = useState("Mendozaservice");
 
-  useEffect(() => {
+    useEffect(() => {
     async function cargarConfiguracion() {
-      const { data, error } = await supabase
+        const { data, error } = await supabase
         .from("configuracion_sitio")
         .select("nombre_empresa")
         .eq("id", 1)
         .maybeSingle();
 
-      if (error) {
+        if (error) {
         console.error(
-          "Error loading company name:",
-          error.message
+            "Error loading company name:",
+            error.message
         );
 
+        setNombreEmpresa("Mendozaservice");
         return;
-      }
+        }
 
-      if (data?.nombre_empresa) {
+        if (data?.nombre_empresa) {
         setNombreEmpresa(data.nombre_empresa);
-      }
+        } else {
+        setNombreEmpresa("Mendozaservice");
+        }
     }
 
     cargarConfiguracion();
-  }, []);
+    }, []);
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
         {/* LOGO */}
         <a
-          href="/#inicio"
-          className="text-xl font-extrabold text-gray-900"
+        href="/#inicio"
+        className="min-w-[170px] text-xl font-extrabold text-gray-900"
         >
-          {nombreEmpresa}
+        {nombreEmpresa}
         </a>
 
         {/* DESKTOP MENU */}

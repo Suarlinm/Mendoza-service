@@ -25,7 +25,7 @@ export default async function Footer() {
           </h2>
 
           <p className="mt-4 leading-7 text-gray-400">
-            Construction, remodeling, and repair services with commitment, responsibility, and quality.
+            Remodeling and repair services with commitment, responsibility, and quality.
           </p>
 
           <div className="mt-6 flex gap-3">
