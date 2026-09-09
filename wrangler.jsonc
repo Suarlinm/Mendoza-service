@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "mendoza-service",
+  "name": "constructora-web",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-09-03",
   "compatibility_flags": [
@@ -13,7 +13,7 @@
   "services": [
     {
       "binding": "WORKER_SELF_REFERENCE",
-      "service": "mendoza-service"
+      "service": "constructora-web"
     }
   ],
   "observability": {
@@ -21,4 +21,3 @@
   }
  }
 
- 
